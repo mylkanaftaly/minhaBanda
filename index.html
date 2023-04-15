@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <title>ColdPlay</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="./img/logo.jpg" alt="logo icon">
+            </div>
+            <nav>
+                <ul class="navbar">
+                  <li>
+                    <a href="#home">Início</a>
+                  </li>
+                  <li>
+                    <a href="#about">Sobre</a>
+                  </li>
+                  <li>
+                    <a href="#songs">Músicas</a>
+                  </li>
+                </ul>
+              </nav>
+      
+              <button class="menu-button" id="menu-button" data-visibile="false">
+                <img src="./img/menu.png" alt="menu icon" />
+              </button>
+        </header>
+    
+        <main class="main">
+            <div id="home">
+                <img class="imagemdefundo" src="./img/imgFundo.jpg" alt="">
+            </div> 
+
+            <section class="cabecalhosobre" id="about">
+                <H1 class="titulosobre">ColdPlay</H1>
+            </section>
+            <section class="textosobre">
+                <p class="sobre1">Coldplay é uma banda britânica de rock alternativo fundada em 1996 na Inglaterra pelo vocalista e pianista Chris Martin e o guitarrista Jonny Buckland no University College London. Depois de formar o Pectoralz, Guy Berryman se juntou ao grupo como baixista e eles mudaram o nome para Starfish.</p>
+                <p class="sobre2"> Will Champion entrou como vocalista de apoio e baterista, sem nenhuma experiência anterior com o instrumento. O empresário Phil Harvey é considerado o quinto membro não oficial. A banda passou a ter o nome atual quando Tim Crompton, amigo de Chris, sugeriu o nome antigo de seu grupo, “Coldplay”, já que o considerava “excessivamente depressivo”. Em seus primeiros anos, a banda gravou e lançou três EPs; Safety em 1998, Brothers & Sisters e The Blue Room em 1999. Este último foi o primeiro lançamento da banda por uma grande gravadora, depois de assinar contrato com a Parlophone.</p>
+                <p class="sobre3">Coldplay alcançou fama mundial com o lançamento da canção "Yellow" em 2000, seguido por seu álbum de estreia lançado no mesmo ano, Parachutes, que foi nomeado para o Mercury Prize. O segundo álbum da banda, A Rush of Blood to the Head, foi lançado em 2002 e recebeu aclamação da crítica. Seu terceiro álbum, X&Y, foi o álbum mais vendido em todo o mundo em 2005; o quarto álbum de estúdio, Viva la Vida or Death and All His Friends, produzido por Brian Eno, foi o álbum mais vendido de 2008 e rendeu à banda três Grammy Awards. Em 2011, Coldplay lançou seu quinto álbum de estúdio, Mylo Xyloto, que liderou as paradas de mais de 34 países e foi o álbum de rock mais vendido do Reino Unido em 2011. Desde então, a banda lançou Ghost Stories (2014), A Head Full of Dreams (2015), Everyday Life (2019) e Music of the Spheres (2021).</p>
+            </section>
+
+            <section class="titulomusicas" id="songs">
+              <h1>Músicas Favoritas</h1>
+            </section>
+            
+            <section class="musicas" >
+              <div class="musica1">
+                <a href="https://www.youtube.com/watch?v=1G4isv_Fylg" target="_blank"><img class="imagemmusica" src="./img/paradise.jpeg"></a>                
+                <div class="descricaomusica">
+                  <h2>Paradise</h2>
+                </div>
+              
+                <audio src="./music/paradise.mp3" controls></audio>
+              </div>
+
+              <div class="musica2">
+                <a href="https://www.youtube.com/watch?v=yKNxeF4KMsY" target="_blank"><img class="imagemmusica" src="./img/yellow.jpeg"></a>                
+                <div class="descricaomusica">
+                  <h2>Yellow</h2>
+                </div>
+              
+                <audio src="./music/yellow.mp3" controls></audio>
+              </div>
+
+            </section>
+
+            <section class="musicas" >
+              <div class="musica1">
+                <a href="https://www.youtube.com/watch?v=RB-RcX5DS5A" target="_blank"><img class="imagemmusica" src="./img/The_scientist.jpeg"></a>                
+                <div class="descricaomusica">
+                  <h2>The Scientist</h2>
+                </div>
+              
+                <audio src="./music/thescientist.mp3" controls></audio>
+              </div>
+
+              <div class="musica2">
+                <a href="" target="_blank"><img class="imagemmusica" src="./img/Vivalavida.jpg"></a>                
+                <div class="descricaomusica">
+                  <h2>Viva La Vida</h2>
+                </div>
+              
+                <audio src="./music/vivalavida.mp3" controls></audio>
+              </div>
+
+            </section>
+
+
+            
+
+            <aside class="aside-menu" id="aside-menu">
+                <nav>
+                  <ul class="nav-menu">
+                    <li>
+                      <a href="#home">Início</a>
+                    </li>
+                    <li>
+                      <a href="#about">Sobre</a>
+                    </li>
+                    <li>
+                      <a href="#songs">Músicas</a>
+                    </li>
+                  </ul>
+                </nav>
+                <button class="menu-close" id="menu-close">
+                  <img src="./img/close.png" alt="close icon" />
+                </button>
+              </aside>
+        </main>
+
+        <footer class="footer">
+            <ul>
+              <li>©2023 Mylka Naftaly</li>
+            </ul>
+          </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
